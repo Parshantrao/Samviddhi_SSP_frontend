@@ -1,0 +1,34 @@
+.result__page {
+    max-height: 100vh;
+}
+.result__page-container {
+    display: flex;
+}
+.result__page-teble {
+    width: 30%;
+}
+.result__page-teble table {
+    width: 100%;
+}
+td, th {
+    border: 2px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    border-collapse: collapse;
+}
+th {
+    background-color: #eee;
+    color: #000;
+}
+.result__page-grap {
+    width: 70%;
+}
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+td {
+    border: 0px !important;
+  }
